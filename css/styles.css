@@ -193,7 +193,7 @@ a {
   display: flex;
   width: max-content;
   height: 100%;
-  animation: hero-horizontal-loop 38s linear infinite;
+  animation: hero-horizontal-loop 70s linear infinite;
   will-change: transform;
 }
 
