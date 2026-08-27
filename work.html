@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Découvrez les projets éditoriaux, campagnes, talents et projets personnels d’Abigail Diantete.">
+  <title>Work — Abigail Diantete</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/projects.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/work.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Abigail Diantete — Accueil">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Abigail Diantete</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span>Menu</span>
+      <span class="menu-icon" aria-hidden="true"></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+      <a href="work.html" aria-current="page">Work</a>
+      <a href="about.html">About</a>
+      <a href="about.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="work-intro page-shell" data-work-intro>
+      <p class="eyebrow blue-text">Portfolio / 2024—2026</p>
+      <div class="work-intro__grid">
+        <h1>Selected work across image, fashion and culture.</h1>
+        <p>Editorial stories, campaigns, talent styling and self-initiated projects developed through a precise and human visual language.</p>
+      </div>
+    </section>
+
+    <section class="work-browser page-shell" data-work-browser aria-labelledby="work-grid-title">
+      <h2 class="visually-hidden" id="work-grid-title">Tous les projets</h2>
+      <div class="filters" role="group" aria-label="Filtrer les projets" data-filters></div>
+      <div class="projects-grid" data-projects-grid></div>
+    </section>
+
+    <section class="project-view" data-project-view hidden aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer page-shell">
+    <p>© <span data-year></span> Abigail Diantete</p>
+    <nav class="footer-links" aria-label="Réseaux sociaux">
+      <a href="https://www.instagram.com/dia.monna" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.linkedin.com/in/abigail-diantete-005188198/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:diantete.abigail@gmail.com?subject=Portfolio%20enquiry">Email</a>
+    </nav>
+    <a href="#main">Back to top ↑</a>
+  </footer>
+</body>
+</html>
